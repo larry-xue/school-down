@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 早点下班
 
-## Getting Started
+让你早点下班的在线工具集合，提升工作效率。
 
-First, run the development server:
+🌐 **在线访问**: [school-down.vercel.app](https://school-down.vercel.app)
+
+## ✨ 特性
+
+- **快速高效** - 所有工具针对性能优化，快速处理您的任务
+- **隐私安全** - 数据仅在浏览器本地处理，不会上传到服务器
+- **无需安装** - 打开浏览器即可使用，无需下载安装任何软件
+
+## 🛠️ 工具列表
+
+### Excel 图片重命名
+
+从 Excel 提取图片，用第一列文本作为文件名批量导出。
+
+- 支持 `.xlsx` 格式
+- 自动跳过标题行
+- 按顺序匹配图片与文本
+- 导出为 ZIP 压缩包
+
+## 🚀 技术栈
+
+- [Next.js 16](https://nextjs.org/) - React 框架
+- [React 19](https://react.dev/) - UI 库
+- [Tailwind CSS 4](https://tailwindcss.com/) - 样式框架
+- [shadcn/ui](https://ui.shadcn.com/) - UI 组件库
+- [ExcelJS](https://github.com/exceljs/exceljs) - Excel 解析
+- [JSZip](https://stuk.github.io/jszip/) - ZIP 打包
+
+## 📦 本地开发
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# 克隆仓库
+git clone https://github.com/larry-xue/school-down.git
+cd school-down
+
+# 安装依赖
+pnpm install
+
+# 启动开发服务器
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+打开 [http://localhost:3000](http://localhost:3000) 查看结果。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ 构建
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+pnpm build
+```
 
-## Learn More
+## 📝 License
 
-To learn more about Next.js, take a look at the following resources:
+MIT
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👤 作者
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Larry Xue**
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Website: [larryxue.dev](https://larryxue.dev)
+- GitHub: [@larry-xue](https://github.com/larry-xue)
